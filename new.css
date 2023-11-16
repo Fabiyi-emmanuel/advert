@@ -1,0 +1,127 @@
+body{
+
+}
+.all{
+    width: 100px;
+    margin-left: -500px;
+
+}
+.container{
+
+    align-self: center;
+width: 500px;
+height: 200px;
+background-color: rgb(0, 4, 255);
+border-radius: 20px;
+margin-left: 200px;
+margin-top: -305px;
+
+border-bottom-right-radius: 195px;
+box-shadow: 30px 10px 50px  blue;
+
+
+}
+a{
+    text-decoration: none;
+    padding: 20px;
+    color: white
+}
+a:hover{
+color: green;
+
+}
+a:active{
+    color: red;
+}
+.border{
+    background-color: rgb(255, 0, 0);
+
+    align-self: center;
+width: 500px;
+height: 300px;
+
+margin-left: 490px;
+/* margin-top: 500px; */
+
+background: linear-gradient(  yellow,blue,orange);
+
+box-shadow: 8px 10px 10px black;
+border-top-left-radius: 195px;
+
+
+}
+.border img{
+    border-radius: 5px;
+    border-color: black;
+    border-width: 30px;
+}
+h3,h1{
+    text-align: center;
+    color: rgb(0, 255, 255);
+}
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-color: white;
+    border-radius: 20px;
+    color: whitesmoke;
+    border: 5px,solid,black;
+    text-shadow: 5px 4px black;
+
+}
+h3{
+color: cyan;
+}
+h4{
+    color: rgb(210, 247, 0);
+    font-weight: bolder;
+
+}
+p{
+    margin-top: -15px;
+}
+
+    @keyframes box{
+    from{
+        width: 100px;background: linear-gradient(blue,green,yellow);
+        top: 0;
+        right: 0;
+        border-radius: 40px;
+        height: 30px;
+
+    }
+    to{
+        width: 200px;background: linear-gradient(rgb(0, 0, 0),brown,pink,blue );
+        right:27%;
+        top: 100%;
+        border-radius: 100%;
+        height: 30px;
+        
+
+
+    }
+    }
+    #animation #box{
+        position: relative;
+    animation-name: box;
+    animation-duration: 10s;
+    animation-delay: 2s;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count :3;
+
+    
+    }
+#box{
+
+width: 50px;
+height: 30px;
+background: linear-gradient(rgb(255, 255, 255),rgb(251, 255, 0));
+margin-left: 1150px;
+margin-top: -300px;
+border-radius: 40px;
+
+
+}
+.new{
+    /* margin-bottom: 200px; */
+}
